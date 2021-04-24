@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const GRID_HEIGHT = 20
   const GRID_SIZE = GRID_WIDTH * GRID_HEIGHT
 
-  // no need to type 200 divs :)
+ 
   const grid = createGrid();
   let squares = Array.from(grid.querySelectorAll('div'))
   const startBtn = document.querySelector('.button')
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const scoreDisplay = document.querySelector('.score-display')
   const linesDisplay = document.querySelector('.lines-score')
   
-  //get gender
+
   const levelField = document.querySelector("#difficulty-level");
   
   
